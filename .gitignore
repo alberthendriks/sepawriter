@@ -12,3 +12,6 @@
 
 .sonar
 /TestResults
+
+SepaWriter/MySepaCreditTransfer.cs
+SepaWriter/sample.xml

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- name this file Perrig.SepaWriter.exe.config and place it in the same dir as the exe file -->
+<configuration>
+  <appSettings>
+    <add key="mysqlConnectionString" value="Server=localhost;Database=peatio_development;Uid=root;Pwd=mysql_password"/>
+  </appSettings>
+</configuration>

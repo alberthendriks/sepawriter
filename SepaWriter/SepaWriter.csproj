@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3967F847-B1B8-4F84-89AB-2D3E99343759}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Perrich.SepaWriter</RootNamespace>
     <AssemblyName>Perrich.SepaWriter</AssemblyName>
@@ -35,12 +35,14 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +64,7 @@
     <Compile Include="Utils\XmlElementExtension.cs" />
     <Compile Include="Utils\XmlUtils.cs" />
     <Compile Include="Utils\XmlValidator.cs" />
+    <Compile Include="MySepaCreditTransfer.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Xsd\pain.001.001.03.xsd">
